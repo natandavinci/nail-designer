@@ -90,7 +90,26 @@ nav a:hover {
 .about-text p {
     line-height: 1.6;
     color: var(--text-color);
+    text-align: justify;
 }
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Alinha a imagem e o texto verticalmente */
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: justify; /* Garante que o texto fique justificado */
+    }
+
+    .about-container img {
+        margin-bottom: 1rem; /* Espaçamento entre a imagem e o texto */
+        width: 150px; /* Reduz o tamanho da imagem para caber na tela */
+        height: 150px;
+    }
+}
+
 
 
 
