@@ -167,6 +167,17 @@ nav a:hover {
     border-radius: 10px;
 }
 
+/*galery carousel*/
+
+
+
+
+
+
+
+
+
+
 .contact {
     background-color: var(--primary-color);
     color: var(--white);
@@ -189,3 +200,30 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+
+/*whatsapp*/
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;  /* Distância do rodapé */
+    right: 20px;   /* Distância da lateral direita */
+    width: 60px;
+    height: 60px;
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    border-radius: 50%;  /* Deixa o botão redondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+.whatsapp-button ion-icon {
+    font-size: 35px;  /* Tamanho do ícone */
+    color: white; /* Cor branca no ícone */
+}
+
