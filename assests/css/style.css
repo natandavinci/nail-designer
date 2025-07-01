@@ -677,3 +677,9 @@ a{
     font-size: 35px;  /* Tamanho do ícone */
     color: white; /* Cor branca no ícone */
 }
+
+a{
+    text-decoration: none;
+    color: #b9ad75
+}
+
